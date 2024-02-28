@@ -31,13 +31,13 @@ const primitives = [true, 1, "example", null, undefined];
 
 // **Code:**
 
-let topMovies = [
+const topMovies = [
   "The Shawshank Redemption",
   "The Godfather",
   "The Dark Knight",
   "12 Angry Men",
 ];
-console.log(topMovies[2]);
+console.log(topMovies[2]); // output "The Dark Knight"
 
 // **Check For Understanding:** How do you access the last element of an array if you don't know the length of the array?
 
@@ -55,9 +55,11 @@ console.log(topMovies[2]);
 
 // **Code:**
 
-let movieRatings = [5, 4, 3, 4, 5];
+const movieRatings = [5, 4, 3, 4, 5];
 movieRatings[1] = 5;
-console.log(movieRatings);
+console.log("movieRatings>>>>>", movieRatings);
+movieRatings[7] = 7; /// output????
+console.log("movieRatings.length>>>>>", movieRatings.length);
 
 // **Check For Understanding:** What happens if you set an array element at an index that is currently beyond the array's length?
 
@@ -75,9 +77,9 @@ console.log(movieRatings);
 
 // **Code:**
 
-let groceryList = ["Milk", "Eggs", "Cheese"];
+const groceryList = ["Milk", "Eggs", "Cheese"];
 groceryList.push("Bread");
-console.log(groceryList.length);
+console.log("groceryList.length", groceryList.length);
 
 // **Check For Understanding:** How does modifying the length property of an array directly affect the array's contents?
 
@@ -95,7 +97,9 @@ console.log(groceryList.length);
 // **Code:**
 
 const sentence = "Hello world, welcome to the universe.";
-const words = sentence.split(" ");
-console.log(words.length);
+const words = sentence.split("w"); // outcome
+console.log("words.length", words.length);
+console.log("words", words);
 
 // **Check For Understanding:** What delimiter would you use to split a string of CSV (Comma-Separated Values) into an array?
+
