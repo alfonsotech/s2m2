@@ -1,20 +1,3 @@
-Welcome to Cody! Start writing code and Cody will autocomplete lines and entire functions for you.
-
-To run Cody Commands use the keyboard shortcut 
-⌥
-C
-, the  button, or right-click anywhere in your code.
-
-You can start a new chat at any time with 
-⌥
-/
- or using the  button.
-
-For more tips and tricks, see the Getting Started Guide and docs.
-
-
-act as my javascript mentor. i am a beginner studying objects. I have teh basic syntax down. Can you tell me what are some of the trickier things about object that I can learn after mastering basic syntax?
-
 Here are some trickier aspects of working with objects in JavaScript that are good to learn after getting the basics down:
 
 Prototype chain - All objects in JavaScript inherit properties and methods from a prototype. The prototype chain is the lookup chain that's followed when accessing a property on an object. Understanding how this chain works is important for tasks like inheritance.

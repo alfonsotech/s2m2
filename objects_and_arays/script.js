@@ -18,49 +18,7 @@ console.log("hello from the js file");
 // 7. Working with array lengths
 // 8. Splitting a string into an array
 
-// Arrays
 
-const numbers = [1, 2, 3, 4, 5];
-
-const fruits = ["Apple", "Banana", "Orange"];
-
-const booleans = [true, false, true];
-
-const mixed = [1, "Hello", true];
-
-const empty = [];
-
-// Book array
-const book = [];
-// console.log("book>>>>", book);
-// Add title
-book[0] = "The Great Gatsby";
-// console.log("book>>>>", book);
-// Get title
-const bookTitle = book["title"];
-// console.log("book>>>>", book);
-// Add author
-// console.log("book>>>>", book);
-book[1] = "F. Scott Fitzgerald";
-// console.log("book>>>>", book);
-// Get author
-let bookAuthor = book[1];
-console.log("bookAuthor", bookAuthor);
-// Add year published
-book[3] = 1925;
-// console.log("book>>>>", book);
-// Get year published
-// const bookYear = book["published"];
-// // console.log("book>>>>", book);
-// // Add genres
-// book[4] = ["Novel", "Fiction", "Classic"];
-// // console.log("book>>>>", book);
-// Get first genre
-
-// Set page count
-book[5] = 180;
-// console.log("book>>>>", book);
-// Get page count
 
 // Objects
 
@@ -76,7 +34,8 @@ const movie = {
   rating: "PG",
   animated: true,
 };
-book = {
+
+const book = {
   title: "The Hobbit",
   author: "J.R.R. Tolkien",
   pages: 310,

@@ -21,9 +21,8 @@
 // - Within buildUser, return an object with keys matching the parameters and the corresponding values.
 // - Test the function to ensure it returns the correct object structure.
 
-// **Code:**
-
 function buildUser(firstName, lastName, age) {
+  console.log(firstName, lastName, age);
   return {
     firstName: firstName,
     lastName: lastName,
@@ -31,6 +30,10 @@ function buildUser(firstName, lastName, age) {
   };
 }
 
+console.log("1", buildUser("Rachel", "Castro", 25));
+console.log("2", buildUser("Kamil", "Patino", 30));
+
+ 
 // ## Conclusion
 
 // Throughout this lesson, we dove into the practical and essential aspects of JavaScript objects and arrays. Through vivid scenarios and varied exercises, you've learned the fundamental operations for these structures including: declaration, property access, updates, and array manipulations. As we wrap up, reflect on how you can apply these tools to bring order to complex data and solve problems with cleaner, more readable code. Moving forward, these skills will be a trusty sidekick in your development journey!

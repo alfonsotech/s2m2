@@ -10,11 +10,16 @@
 // - Assign an object to 'hero' with keys for firstName, lastName, and age.
 // - Set the values for these keys based on Bruce Wayne's information.
 
-// **Code:**
+// TODO: **Code:**
+const hero = {
+  firstName: "Bruce",
+  lastName: "Wayne",
+  age: 33,
+};
 
-let hero = { firstName: "Bruce", lastName: "Wayne", age: 33 };
-
-// **Check For Understanding:** What is the result of reading a property that does not exist from an object in JavaScript?
+// TODO: **Check For Understanding:** What is the result of reading a property that does not exist from an object in JavaScript?
+hero.color;
+console.log(hero.color);
 
 // ### Getting properties from an object
 
@@ -28,15 +33,18 @@ let hero = { firstName: "Bruce", lastName: "Wayne", age: 33 };
 // - Store the flavor property in a variable named currentFlavor using bracket notation.
 // - Log the value stored in currentFlavor to the console.
 
-// **Code:**
+// TODO: **Code:**
+// console.log(cake.flavor); // cake.flavor
+// let currentFlavor = cake["flavor"]; // cake['flavor'
+// console.log(currentFlavor);
+///////****************** *///////******************
 
-console.log(cake.flavor);
-let currentFlavor = cake["flavor"];
-console.log(currentFlavor);
+// TODO: **Check For Understanding:** What is the result of the following code snippet?
 
-// **Check For Understanding:** What is the result of the following code snippet?
-
-// `const sentence = 'The quick brown fox'; const words = sentence.split(' '); console.log(words[5]);`
+const sentence = "The quick brown fox";
+const words = sentence.split(" "); //tyoeof words? array
+console.log(words);
+console.log(words[5]); //output???
 
 // ### Setting and deleting properties
 
@@ -51,15 +59,19 @@ console.log(currentFlavor);
 // - Use the delete operator to remove the color property from the animal object.
 // - Log the complete animal object to the console to verify the changes.
 
-// **Code:**
+// TODO: **Code:**
 
+const animal = {
+  habitat: "Forest",
+  color: "black and white",
+};
 animal.habitat = "Hospital";
 delete animal.color;
-console.log(animal);
-
-// **Check For Understanding:** What is the result of the following code snippet?
+console.log("animal", animal);
+// TODO: **Check For Understanding:** What is the result of the following code snippet?
 
 const letters = ["a", "b", "c", "d"];
 for (let idx in letters) {
   console.log(idx, letters[idx]);
 }
+
